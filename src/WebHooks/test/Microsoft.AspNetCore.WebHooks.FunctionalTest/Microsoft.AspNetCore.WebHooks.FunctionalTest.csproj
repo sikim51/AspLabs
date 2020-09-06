@@ -25,4 +25,8 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="$(MicrosoftAspNetCoreMvcTestingPackageVersion)" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\samples\CrispCoreReceiver\CrispCoreReceiver.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,0 +1,22 @@
+{
+  "website_id": "",
+  "event": "message:send",
+
+  "data": {
+    "website_id": "-JzqEmX56venQuQw4YV8",
+    "session_id": "session_2eb17aee-acae-4f20-972b-f69ea5404fdb",
+    "type": "text",
+    "content": "Hey :)",
+    "from": "user",
+    "origin": "chat",
+    "stamped": true,
+    "timestamp": 1506985696616,
+    "fingerprint": 150698569649423,
+    "user": {
+      "nickname": "visitor493603",
+      "user_id": "session_2eb17aee-acae-4f20-972b-f69ea5404fdb"
+    }
+  },
+
+  "timestamp": 1506985696616
+}

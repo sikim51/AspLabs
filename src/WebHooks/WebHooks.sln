@@ -99,6 +99,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrelloCoreReceiver", "sampl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.WebHooks.FunctionalTest", "test\Microsoft.AspNetCore.WebHooks.FunctionalTest\Microsoft.AspNetCore.WebHooks.FunctionalTest.csproj", "{F42E56B7-60D4-481A-8585-04015B2B501E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.AspNetCore.WebHooks.Receivers.Crisp", "src\Microsoft.AspNetCore.WebHooks.Receivers.Crisp\Microsoft.AspNetCore.WebHooks.Receivers.Crisp.csproj", "{542F172D-9BF9-4955-9527-EB526A6A9907}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrispCoreReceiver", "samples\CrispCoreReceiver\CrispCoreReceiver.csproj", "{3566BA48-946D-461A-A36E-DF8C32AA0FBF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -249,6 +253,14 @@ Global
 		{F42E56B7-60D4-481A-8585-04015B2B501E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F42E56B7-60D4-481A-8585-04015B2B501E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F42E56B7-60D4-481A-8585-04015B2B501E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{542F172D-9BF9-4955-9527-EB526A6A9907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{542F172D-9BF9-4955-9527-EB526A6A9907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{542F172D-9BF9-4955-9527-EB526A6A9907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{542F172D-9BF9-4955-9527-EB526A6A9907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3566BA48-946D-461A-A36E-DF8C32AA0FBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3566BA48-946D-461A-A36E-DF8C32AA0FBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3566BA48-946D-461A-A36E-DF8C32AA0FBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3566BA48-946D-461A-A36E-DF8C32AA0FBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -290,6 +302,8 @@ Global
 		{91E02D64-BA6E-473C-A250-D1051A50DDAB} = {9575CB90-BC4B-43BB-8AEA-82C53FDA4187}
 		{E9E37253-3FE1-44A4-A9E7-A2B6C54EECFE} = {E957C8D9-B4A0-488B-838F-BAB4DE080A76}
 		{F42E56B7-60D4-481A-8585-04015B2B501E} = {9575CB90-BC4B-43BB-8AEA-82C53FDA4187}
+		{542F172D-9BF9-4955-9527-EB526A6A9907} = {929F44D0-A040-4DC3-A22F-4C5829C05D44}
+		{3566BA48-946D-461A-A36E-DF8C32AA0FBF} = {E957C8D9-B4A0-488B-838F-BAB4DE080A76}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {12CE6238-F847-4984-8622-1ED46072150A}
